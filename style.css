@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+body {
+    display: flex;  
+    padding: 2em;
+    width: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image:url(/images/pattern-background-desktop.svg);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.card {
+    display: grid;
+    background-color:hsla(0, 0%, 100%, 0.973);
+    grid-template-columns:1fr ;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    position: absolute;
+    top:5em;
+    bottom:5em;
+    left: 70%;
+    width: 335px;
+    height:fit-content;
+}
+
+.image-wrap {
+    display: flex;
+    background-repeat: no-repeat;
+    
+}
+
+.card-text h1 {
+    display: flex;
+    margin: 15px;
+    font-size: 1.3rem;
+    margin-left: 27%;
+}
+
+p {
+    display: flex;
+    margin: 3px;
+    font-size: 17px;
+    color: hsl(224, 23%, 55%);
+}
+
+.boxed {
+    display: flex;
+    margin: 17px;
+    width: 280px;
+    height: 65px;
+    margin-left: 22px;
+    border-radius: 5px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.icon-music {
+    margin-left:10px;
+    margin-top: 10px;
+}
+
+.plan h2 {
+    font-size: 14px;
+    margin: 5px;
+    margin-top: 15px;
+    display: flex;
+    margin-left: 9px;
+}
+
+.plan p {
+    margin-left: 9px;
+}
+
+.option  {
+    color: #000;
+    margin: auto;
+}
+
+.container {
+    margin: 0.001rem;
+    display: flex;
+    background-color: hsl(245, 75%, 52%);
+    width: 280px;
+    height: 37px;
+    border-radius: 5px;
+    margin-left: 21px;
+    padding-top: 0px;
+    box-shadow: 4px 9px 8px 4px hsl(225, 100%, 94%);
+
+
+}
+
+.container p {
+    margin: auto;
+    color: white;
+}
+
+.cancel p {
+    margin: 15px;
+    margin-left: 35%;
+}
+
