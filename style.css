@@ -34,10 +34,9 @@ body {
     height:fit-content;
 }
 
-.image-wrap {
-    display: flex;
-    background-repeat: no-repeat;
-    
+.picture {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
 }
 
 .card-text h1 {
